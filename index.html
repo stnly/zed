@@ -1,14 +1,24 @@
-<html id="xL8ab3HBSoAb7EJX" contenteditable spellcheck="false" style="background:#eee;font-size:2rem;line-height:1.4;max-width:60rem;margin:0 auto;padding:4rem;outline:none;">
-<title>Zed - Zen Editor</title>
+<!doctype html>
+<html>
+<head>
+  <title>Zed - Zen Editor</title>
+  <style type="text/css">
+    html {
+      background:#eee;
+    }
+  </style>
+</head>
+<div id="xL8ab3HBSoAb7EJX" contenteditable spellcheck="false" style="background:#eee;font-size:2rem;line-height:1.4;max-width:60rem;margin:0 auto;padding:4rem;outline:none;">
+</div>
 <script>
 window.onload=function(){
   var xL8ab3HBSoAb7EJX=document.getElementById('xL8ab3HBSoAb7EJX');
-  xL8ab3HBSoAb7EJX.innerHTML= r(localStorage.xL8ab3HBSoAb7EJX) || 'Click to start typing...'
+  xL8ab3HBSoAb7EJX.innerHTML= r(localStorage.xL8ab3HBSoAb7EJX) || 'Delete this and start typing...<br>When you return, your text will still be here.';
 };
 onkeyup=function(){
-  localStorage.xL8ab3HBSoAb7EJX=xL8ab3HBSoAb7EJX.innerHTML
+  localStorage.xL8ab3HBSoAb7EJX=xL8ab3HBSoAb7EJX.innerHTML;
 };
 function r(xL8ab3HBSoAb7EJX){
-  return xL8ab3HBSoAb7EJX
+  return xL8ab3HBSoAb7EJX;
 };
-</script>
+</script></html>
